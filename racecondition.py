@@ -3,7 +3,7 @@ import time
 import requests
 import threading
 
-target = "34.87.154.236"
+target = "127.0.0.1"
 
 request = requests.Session()
 url1 = 'http://%s/login.php'%(target)
